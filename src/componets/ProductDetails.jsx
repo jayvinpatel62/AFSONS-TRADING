@@ -6,8 +6,8 @@ const ProductDetails = () => {
         <>
             <div className='py-[20px]'>
                     <div className='my-container'>
-                        <div >
-                            <div class="effect-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  grid-flow-col lg:grid-rows-2 gap-10">
+                        <div className='h-[600px]'>
+                            <div class="effect-8 h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  grid-flow-col lg:grid-rows-2 gap-10">
                                 <div class="img_box lg:col-span-2 md:row-span-2">
                                     <img src={require("../image/silder-img-3.avif")} className='object-cover w-full h-full' alt="" />
                                     <div class="info_box">
